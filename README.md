@@ -1,6 +1,8 @@
 # Netflix Wrapped
 
-A personalized "Year in Review" for your Netflix viewing habits. Create your own Spotify Wrapped-style summary of the shows and movies you watched.
+A personalized "Year in Review" for your Netflix viewing habits. Create your own Wrapped-style summary of the shows and movies you watched.
+
+**Live Demo:** [https://isfarbaset.github.io/netflix-wrapped/](https://isfarbaset.github.io/netflix-wrapped/)
 
 ## Features
 
@@ -23,7 +25,7 @@ A personalized "Year in Review" for your Netflix viewing habits. Create your own
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/netflix-wrapped.git
+   git clone https://github.com/isfarbaset/netflix-wrapped.git
    cd netflix-wrapped
    ```
 
