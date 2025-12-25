@@ -275,7 +275,7 @@ def main():
     available_years = df['Year'].unique()
     
     # Calculate stats for most recent year with data
-    target_year = max([y for y in available_years if y <= current_year])
+    target_year = 2025 if 2025 in available_years else max([y for y in available_years if y <= current_year])
     
     print(f"Calculating stats for {target_year}...")
     stats = calculate_stats(df, year=target_year)

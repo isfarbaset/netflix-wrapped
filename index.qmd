@@ -19,50 +19,50 @@ if stats_file.exists():
     with open(stats_file) as f:
         stats = json.load(f)
 else:
-    # Sample data for preview
+    # Sample data for preview - 2025
     stats = {
-        "year": 2024,
-        "total_titles_watched": 847,
-        "unique_shows": 156,
-        "estimated_hours": 635,
-        "estimated_days": 26.5,
-        "number_one_show": "Breaking Bad",
-        "number_one_count": 62,
-        "peak_month": "October",
-        "peak_month_count": 112,
+        "year": 2025,
+        "total_titles_watched": 923,
+        "unique_shows": 168,
+        "estimated_hours": 692,
+        "estimated_days": 28.8,
+        "number_one_show": "Wednesday",
+        "number_one_count": 58,
+        "peak_month": "November",
+        "peak_month_count": 118,
         "favorite_day": "Saturday",
-        "favorite_day_count": 186,
-        "longest_streak": 23,
-        "binge_sessions": 34,
-        "biggest_binge": 12,
-        "biggest_binge_show": "Stranger Things",
-        "active_days": 289,
+        "favorite_day_count": 198,
+        "longest_streak": 27,
+        "binge_sessions": 42,
+        "biggest_binge": 14,
+        "biggest_binge_show": "Squid Game",
+        "active_days": 312,
         "peak_time": "Evening (6pm-10pm)",
         "personality": {
             "type": "The Binge Master",
             "description": "One more episode? Make that ten. Sleep is optional when the plot thickens."
         },
         "top_shows": [
-            {"title": "Breaking Bad", "count": 62},
-            {"title": "The Office", "count": 48},
-            {"title": "Stranger Things", "count": 45},
-            {"title": "Money Heist", "count": 38},
-            {"title": "Dark", "count": 32}
+            {"title": "Wednesday", "count": 58},
+            {"title": "Stranger Things", "count": 52},
+            {"title": "The Crown", "count": 45},
+            {"title": "Squid Game", "count": 41},
+            {"title": "Money Heist", "count": 36}
         ],
         "monthly_breakdown": {
-            "January": 65, "February": 58, "March": 72, "April": 68,
-            "May": 55, "June": 62, "July": 78, "August": 85,
-            "September": 92, "October": 112, "November": 98, "December": 102
+            "January": 72, "February": 65, "March": 78, "April": 71,
+            "May": 58, "June": 64, "July": 82, "August": 89,
+            "September": 96, "October": 108, "November": 118, "December": 22
         },
         "fun_facts": [
-            "You could have flown to Tokyo 45.4 times with your watch time.",
-            "In this time, you could have read approximately 106 books. But who is counting?",
-            "Your 23-day streak shows true dedication. Netflix should send you a trophy.",
-            "With 34 binge sessions, you have mastered the art of just one more episode."
+            "You could have flown to Tokyo 49.4 times with your watch time.",
+            "In this time, you could have read approximately 115 books. But who is counting?",
+            "Your 27-day streak shows true dedication. Netflix should send you a trophy.",
+            "With 42 binge sessions, you have mastered the art of just one more episode."
         ]
     }
 
-year = stats.get("year", 2024)
+year = stats.get("year", 2025)
 hours = stats.get("estimated_hours", 0)
 days = stats.get("estimated_days", 0)
 total = stats.get("total_titles_watched", 0)
@@ -70,6 +70,7 @@ shows = stats.get("unique_shows", 0)
 top_show = stats.get("number_one_show", "Unknown")
 top_count = stats.get("number_one_count", 0)
 personality = stats.get("personality", {})
+active_days = stats.get("active_days", 0)
 ```
 
 ::: {.hero}
@@ -98,10 +99,10 @@ THE BIG PICTURE
 `{python} f"{hours:,.0f}"`
 :::
 ::: {.label}
-Hours Watched
+Hours Streamed
 :::
 ::: {.detail}
-That's `{python} f"{days:.1f}"` days of pure entertainment
+That is `{python} f"{days:.1f}"` days of pure entertainment
 :::
 :::
 
@@ -113,7 +114,7 @@ That's `{python} f"{days:.1f}"` days of pure entertainment
 Titles Watched
 :::
 ::: {.detail}
-Episodes, movies, documentaries - you name it
+Episodes, movies, documentaries, and more
 :::
 :::
 
@@ -131,7 +132,7 @@ Your taste is impressively diverse
 
 ::: {.stat-card}
 ::: {.number}
-`{python} stats.get('active_days', 0)`
+`{python} active_days`
 :::
 ::: {.label}
 Active Days
@@ -168,19 +169,19 @@ YOUR STREAMING PERSONALITY
 YOUR NUMBER ONE
 :::
 
-::: {.stat-card style="max-width: 600px; margin: 0 auto; text-align: center;"}
-::: {.number style="font-size: 2.5rem;"}
+::: {.stat-card style="max-width: 700px; margin: 0 auto; text-align: center;"}
+::: {.number style="font-size: 3rem;"}
 `{python} top_show`
 :::
 ::: {.label}
-Most Watched Show
+Most Watched Show of the Year
 :::
 ::: {.detail}
 You watched `{python} top_count` episodes. A true fan.
 :::
 :::
 
-[See all your top shows](/stats.html){.btn .btn-primary style="display: block; width: fit-content; margin: 2rem auto; padding: 1rem 2rem; background: var(--netflix-red); border: none; border-radius: 8px; text-decoration: none; color: white; font-weight: bold;"}
+[See All Your Stats](/stats.html){.btn-netflix style="display: block; width: fit-content; margin: 3rem auto;"}
 
 :::
 
@@ -200,18 +201,18 @@ if monthly:
     for month in ["January", "February", "March", "April", "May", "June", 
                   "July", "August", "September", "October", "November", "December"]:
         count = monthly.get(month, 0)
-        height = (count / max_val) * 180 if max_val > 0 else 10
+        height = (count / max_val) * 200 if max_val > 0 else 10
         print(f'<div class="month-bar" style="height: {height}px;" title="{month}: {count}"></div>')
     print('</div>')
     
-    print('<div style="display: flex; justify-content: space-between; padding: 0 1rem;">')
-    for month in ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]:
+    print('<div style="display: flex; justify-content: space-between; padding: 0 2rem; margin-top: 0.5rem;">')
+    for month in ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"]:
         print(f'<span class="month-label">{month}</span>')
     print('</div>')
 ```
 
-::: {.stat-card style="margin-top: 2rem; text-align: center;"}
-::: {.detail}
+::: {.stat-card style="margin-top: 3rem; text-align: center; max-width: 600px; margin-left: auto; margin-right: auto;"}
+::: {.detail style="font-size: 1.2rem;"}
 Peak month: **`{python} stats.get('peak_month', 'Unknown')`** with `{python} stats.get('peak_month_count', 0)` titles watched
 :::
 :::
@@ -221,7 +222,7 @@ Peak month: **`{python} stats.get('peak_month', 'Unknown')`** with `{python} sta
 
 ::: {.wrapped-section}
 ::: {.section-title}
-FUN FACTS
+DID YOU KNOW?
 :::
 
 ```{python}
@@ -246,7 +247,7 @@ if binges > 0:
 
 ::: {.wrapped-footer}
 ::: {.tagline}
-Now go take a break. You have earned it!
+Thanks for Streaming
 :::
-Thanks for streaming. See you next year.
+Now go take a break. You have earned it.
 :::
