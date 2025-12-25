@@ -249,5 +249,5 @@ if binges > 0:
 ::: {.tagline}
 Thanks for Streaming
 :::
-Now go take a break. You have earned it.
+Same time next year?
 :::
