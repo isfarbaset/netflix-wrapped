@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "insights.html",
+    "href": "insights.html",
+    "title": "Insights",
+    "section": "",
+    "text": "Based on your watching patterns, we have analyzed your streaming style.\n\n\nThe Binge Master\n\n\nOne more episode? Make that ten."
+  },
+  {
+    "objectID": "insights.html#your-viewing-personality",
+    "href": "insights.html#your-viewing-personality",
+    "title": "Insights",
+    "section": "",
+    "text": "Based on your watching patterns, we have analyzed your streaming style.\n\n\nThe Binge Master\n\n\nOne more episode? Make that ten."
+  },
+  {
+    "objectID": "insights.html#by-the-numbers",
+    "href": "insights.html#by-the-numbers",
+    "title": "Insights",
+    "section": "By The Numbers",
+    "text": "By The Numbers\nLet us put your streaming into perspective.\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 3rem;\"&gt;79.4&lt;/div&gt;\n    &lt;div class=\"label\"&gt;Flights to London&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;Based on 8-hour flight time&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 3rem;\"&gt;141.1&lt;/div&gt;\n    &lt;div class=\"label\"&gt;Marathon Movies&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;If each movie was 4.5 hours&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 3rem;\"&gt;64&lt;/div&gt;\n    &lt;div class=\"label\"&gt;Audiobooks&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;At 10 hours per book&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 3rem;\"&gt;15.9&lt;/div&gt;\n    &lt;div class=\"label\"&gt;Work Weeks&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;Based on 40-hour weeks&lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "insights.html#time-well-spent",
+    "href": "insights.html#time-well-spent",
+    "title": "Insights",
+    "section": "Time Well Spent?",
+    "text": "Time Well Spent?\nHere is what 635 hours looks like in different contexts.\n\nYou spent 26.5 full days watching Netflix this year. That is more than most people spend on vacation.\n\n\nIn this time, you could have cooked approximately 1,270 home-cooked meals. But takeout pairs better with TV anyway.\n\n\nYou are in the top tier of Netflix viewers. The algorithm knows you better than your family does.\n\n\nAt this point, Netflix should be paying YOU for quality assurance testing."
+  },
+  {
+    "objectID": "insights.html#patterns-we-noticed",
+    "href": "insights.html#patterns-we-noticed",
+    "title": "Insights",
+    "section": "Patterns We Noticed",
+    "text": "Patterns We Noticed\n\nYou are a Evening watcher. Most of your viewing happens during this window.\n\n\nSaturday is your power day. You watch more on this day than any other.\n\n\nOctober was your streaming peak. Something about that month just hit different."
+  },
+  {
+    "objectID": "insights.html#what-your-data-says-about-you",
+    "href": "insights.html#what-your-data-says-about-you",
+    "title": "Insights",
+    "section": "What Your Data Says About You",
+    "text": "What Your Data Says About You\nBased on your viewing habits, here are some observations:\n\nYou prefer to savor your shows. One or two episodes at a time, like a fine wine.\n\n\nClassic evening viewer. Winding down with Netflix is your ritual."
+  },
+  {
+    "objectID": "insights.html#final-thoughts",
+    "href": "insights.html#final-thoughts",
+    "title": "Insights",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nYou spent 635 hours streaming this year. That is:\n\nStories that made you laugh\nPlot twists that kept you up way too late\n\nCharacters you grew attached to\nWorlds you escaped into\n\nNot a single hour wasted.\n\n\nNow go take a break. You have earned it!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This project creates a personalized “Year in Review” summary of your Netflix viewing habits, inspired by Spotify Wrapped and similar end-of-year recaps.\n\n\n\nDownload your Netflix data from your account settings\nRun the processing script to analyze your viewing history\nView your personalized Wrapped with stats, insights, and fun facts\n\n\n\n\n\nGo to Netflix.com and sign in\nClick your profile icon &gt; Account\nScroll down to Security & Privacy\nClick Download your personal information\nSelect Viewing Activity (or download all)\nWait for the email from Netflix (can take up to 30 days)\nDownload and extract the ZIP file\nFind ViewingActivity.csv and place it in the data/ folder\n\n\n\n\n\nAll data processing happens locally on your machine\nNo data is sent to any external servers\nYour viewing history stays private\n\n\n\n\n\nPython - Data processing and analysis\nQuarto - Static site generation\nGitHub Pages - Free hosting\n\n\n\n\nThis project is open source. Feel free to fork it and create your own Wrapped!\nView on GitHub\n\nCreated with data, coffee, and a love for good television."
+  },
+  {
+    "objectID": "about.html#about-netflix-wrapped",
+    "href": "about.html#about-netflix-wrapped",
+    "title": "About",
+    "section": "",
+    "text": "This project creates a personalized “Year in Review” summary of your Netflix viewing habits, inspired by Spotify Wrapped and similar end-of-year recaps.\n\n\n\nDownload your Netflix data from your account settings\nRun the processing script to analyze your viewing history\nView your personalized Wrapped with stats, insights, and fun facts\n\n\n\n\n\nGo to Netflix.com and sign in\nClick your profile icon &gt; Account\nScroll down to Security & Privacy\nClick Download your personal information\nSelect Viewing Activity (or download all)\nWait for the email from Netflix (can take up to 30 days)\nDownload and extract the ZIP file\nFind ViewingActivity.csv and place it in the data/ folder\n\n\n\n\n\nAll data processing happens locally on your machine\nNo data is sent to any external servers\nYour viewing history stays private\n\n\n\n\n\nPython - Data processing and analysis\nQuarto - Static site generation\nGitHub Pages - Free hosting\n\n\n\n\nThis project is open source. Feel free to fork it and create your own Wrapped!\nView on GitHub\n\nCreated with data, coffee, and a love for good television."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NETFLIX WRAPPED",
+    "section": "",
+    "text": "NETFLIX WRAPPED\n\nYour Year in Streaming\n\n\n2024\n\n\n\n\nTHE BIG PICTURE\n\n\n\n\n635\n\n\nHours Watched\n\n\nThat’s 26.5 days of pure entertainment\n\n\n\n\n847\n\n\nTitles Watched\n\n\nEpisodes, movies, documentaries - you name it\n\n\n\n\n156\n\n\nUnique Shows\n\n\nYour taste is impressively diverse\n\n\n\n\n289\n\n\nActive Days\n\n\nDays you pressed play this year\n\n\n\n\n\n\nYOUR STREAMING PERSONALITY\n\n\n\nThe Binge Master\n\n\nOne more episode? Make that ten. Sleep is optional when the plot thickens.\n\n\n\n\n\nYOUR NUMBER ONE\n\n\n\nBreaking Bad\n\n\nMost Watched Show\n\n\nYou watched 62 episodes. A true fan.\n\n\nSee all your top shows\n\n\n\nWHEN YOU WATCHED\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n\n\n\nPeak month: October with 112 titles watched\n\n\n\n\n\nFUN FACTS\n\n\nYou could have flown to Tokyo 45.4 times with your watch time.\n\n\nIn this time, you could have read approximately 106 books. But who is counting?\n\n\nYour 23-day streak shows true dedication. Netflix should send you a trophy.\n\n\nWith 34 binge sessions, you have mastered the art of just one more episode.\n\n\nYour favorite day to watch was Saturday.\n\n\nYou went on a 23-day watching streak. Commitment level: expert.\n\n\nYou had 34 official binge sessions this year.\n\n\n\n\nNow go take a break. You have earned it!\n\nThanks for streaming. See you next year."
+  },
+  {
+    "objectID": "stats.html",
+    "href": "stats.html",
+    "title": "Your Stats",
+    "section": "",
+    "text": "The shows that defined your year.\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Breaking Bad&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;62 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;The Office&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;48 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Stranger Things&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;45 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Money Heist&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;38 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Dark&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;32 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Narcos&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;28 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Black Mirror&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;24 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Ozark&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;22 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;The Crown&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;20 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Mindhunter&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;18 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;"
+  },
+  {
+    "objectID": "stats.html#top-10-shows",
+    "href": "stats.html#top-10-shows",
+    "title": "Your Stats",
+    "section": "",
+    "text": "The shows that defined your year.\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Breaking Bad&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;62 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;The Office&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;48 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Stranger Things&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;45 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Money Heist&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;38 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Dark&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;32 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Narcos&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;28 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Black Mirror&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;24 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Ozark&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;22 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;The Crown&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;20 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;\n\n\n&lt;li&gt;\n    &lt;div&gt;\n        &lt;div class=\"title\"&gt;Mindhunter&lt;/div&gt;\n        &lt;div class=\"meta\"&gt;18 episodes watched&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/li&gt;"
+  },
+  {
+    "objectID": "stats.html#monthly-breakdown",
+    "href": "stats.html#monthly-breakdown",
+    "title": "Your Stats",
+    "section": "Monthly Breakdown",
+    "text": "Monthly Breakdown\nSee how your watching habits changed throughout the year.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n\n\n\n\n&lt;div class=\"number\" style=\"font-size: 2rem;\"&gt;October&lt;/div&gt;\n&lt;div class=\"label\"&gt;Peak Month&lt;/div&gt;\n&lt;div class=\"detail\"&gt;112 titles watched&lt;/div&gt;\n\n\n&lt;div class=\"number\" style=\"font-size: 2rem;\"&gt;May&lt;/div&gt;\n&lt;div class=\"label\"&gt;Slowest Month&lt;/div&gt;\n&lt;div class=\"detail\"&gt;55 titles watched&lt;/div&gt;"
+  },
+  {
+    "objectID": "stats.html#day-of-the-week",
+    "href": "stats.html#day-of-the-week",
+    "title": "Your Stats",
+    "section": "Day of the Week",
+    "text": "Day of the Week\nWhich days did you watch the most?\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: normal;\"&gt;Monday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;98&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: rgba(229, 9, 20, 0.5); height: 100%; width: 52.68817204301075%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: normal;\"&gt;Tuesday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;105&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: rgba(229, 9, 20, 0.5); height: 100%; width: 56.451612903225815%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: normal;\"&gt;Wednesday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;112&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: rgba(229, 9, 20, 0.5); height: 100%; width: 60.215053763440864%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: normal;\"&gt;Thursday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;118&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: rgba(229, 9, 20, 0.5); height: 100%; width: 63.44086021505376%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: normal;\"&gt;Friday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;145&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: rgba(229, 9, 20, 0.5); height: 100%; width: 77.95698924731182%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: bold;\"&gt;Saturday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;186&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: var(--netflix-red); height: 100%; width: 100.0%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div style=\"margin: 1rem 0;\"&gt;\n    &lt;div style=\"display: flex; justify-content: space-between; margin-bottom: 0.5rem;\"&gt;\n        &lt;span style=\"font-weight: normal;\"&gt;Sunday&lt;/span&gt;\n        &lt;span style=\"color: var(--netflix-gray);\"&gt;163&lt;/span&gt;\n    &lt;/div&gt;\n    &lt;div style=\"background: rgba(255,255,255,0.1); border-radius: 4px; height: 24px; overflow: hidden;\"&gt;\n        &lt;div style=\"background: rgba(229, 9, 20, 0.5); height: 100%; width: 87.63440860215054%; border-radius: 4px; transition: width 0.5s ease;\"&gt;&lt;/div&gt;\n    &lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "stats.html#time-of-day",
+    "href": "stats.html#time-of-day",
+    "title": "Your Stats",
+    "section": "Time of Day",
+    "text": "Time of Day\nWhen do you usually watch?\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 2.5rem;\"&gt;10%&lt;/div&gt;\n    &lt;div class=\"label\" style=\"font-size: 0.9rem;\"&gt;Morning (6am-12pm)&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;85 titles&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 2.5rem;\"&gt;23%&lt;/div&gt;\n    &lt;div class=\"label\" style=\"font-size: 0.9rem;\"&gt;Afternoon (12pm-6pm)&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;198 titles&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 2.5rem;\"&gt;49%&lt;/div&gt;\n    &lt;div class=\"label\" style=\"font-size: 0.9rem;\"&gt;Evening (6pm-10pm)&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;412 titles&lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"stat-card\"&gt;\n    &lt;div class=\"number\" style=\"font-size: 2.5rem;\"&gt;18%&lt;/div&gt;\n    &lt;div class=\"label\" style=\"font-size: 0.9rem;\"&gt;Night Owl (10pm-6am)&lt;/div&gt;\n    &lt;div class=\"detail\"&gt;152 titles&lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "stats.html#binge-watching-stats",
+    "href": "stats.html#binge-watching-stats",
+    "title": "Your Stats",
+    "section": "Binge Watching Stats",
+    "text": "Binge Watching Stats\nBecause sometimes one episode is never enough.\n\n\n&lt;div class=\"number\"&gt;0&lt;/div&gt;\n&lt;div class=\"label\"&gt;Binge Sessions&lt;/div&gt;\n&lt;div class=\"detail\"&gt;3+ episodes in one day&lt;/div&gt;\n\n\n&lt;div class=\"number\"&gt;0&lt;/div&gt;\n&lt;div class=\"label\"&gt;Biggest Binge&lt;/div&gt;\n&lt;div class=\"detail\"&gt;Unknown in one sitting&lt;/div&gt;\n\n\n&lt;div class=\"number\"&gt;0&lt;/div&gt;\n&lt;div class=\"label\"&gt;Day Streak&lt;/div&gt;\n&lt;div class=\"detail\"&gt;Consecutive days watching&lt;/div&gt;"
+  }
+]
