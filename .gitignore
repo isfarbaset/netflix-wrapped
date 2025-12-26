@@ -30,3 +30,6 @@ Thumbs.db
 .ipynb_checkpoints/
 
 /.quarto/
+
+# Netflix data export
+data/
