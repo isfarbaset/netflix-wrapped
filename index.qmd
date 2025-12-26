@@ -74,15 +74,21 @@ for i, show in enumerate(top_shows[:5]):
 
 # Build monthly chart HTML
 max_monthly = max(monthly.values()) if monthly else 1
-months_short = ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"]
+min_monthly = min(monthly.values()) if monthly else 0
+months_short = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 months_full = ["January", "February", "March", "April", "May", "June", 
                "July", "August", "September", "October", "November", "December"]
 monthly_html = ""
 for short, full in zip(months_short, months_full):
     count = monthly.get(full, 0)
-    height = (count / max_monthly) * 100 if max_monthly > 0 else 0
+    # Scale from 20% to 100% for better visual differentiation
+    height = 20 + ((count - min_monthly) / (max_monthly - min_monthly) * 80) if max_monthly > min_monthly else 50
     is_peak = full == peak_month
-    monthly_html += f'''<div class="bar-col"><div class="bar {"peak" if is_peak else ""}" style="height: {height}%;"></div><span>{short}</span></div>'''
+    monthly_html += f'''<div class="bar-col {"peak-col" if is_peak else ""}">
+        <div class="bar-value">{count}</div>
+        <div class="bar {"peak" if is_peak else ""}" style="height: {height}%;"></div>
+        <span>{short}</span>
+    </div>'''
 
 # Build day of week HTML  
 max_dow = max(dow.values()) if dow else 1

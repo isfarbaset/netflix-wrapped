@@ -333,15 +333,19 @@ main.content, #quarto-content {
 
 /* Bar Chart */
 .chart-container {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
 }
 
 .bar-chart {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
-    gap: 6px;
-    height: 150px;
+    justify-content: space-between;
+    gap: 4px;
+    height: 180px;
+    padding: 0 0.5rem;
 }
 
 .bar-col {
@@ -349,26 +353,45 @@ main.content, #quarto-content {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    max-width: 30px;
+    min-width: 0;
 }
 
 .bar-col span {
+    font-size: 0.55rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.bar-col.peak-col span {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+.bar-value {
     font-size: 0.65rem;
-    color: var(--netflix-gray);
-    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.bar-col.peak-col .bar-value {
+    color: var(--gold);
+    font-weight: 700;
 }
 
 .bar {
     width: 100%;
-    background: linear-gradient(180deg, var(--netflix-red) 0%, #831010 100%);
-    border-radius: 3px 3px 0 0;
-    min-height: 4px;
+    background: linear-gradient(180deg, rgba(229, 9, 20, 0.8) 0%, rgba(229, 9, 20, 0.4) 100%);
+    border-radius: 4px 4px 0 0;
+    min-height: 8px;
     transition: height 0.5s ease-out;
 }
 
 .bar.peak {
     background: linear-gradient(180deg, var(--gold) 0%, var(--netflix-red) 100%);
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
 }
 
 /* Time Grid */
