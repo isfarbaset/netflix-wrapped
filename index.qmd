@@ -128,7 +128,7 @@ display(HTML(f'''
         <!-- Slide 1: Intro -->
         <div class="slide active" data-slide="0">
             <div class="slide-content intro">
-                <div class="netflix-logo">N</div>
+                <img src="images/netflix-logo.png" alt="Netflix" class="netflix-logo">
                 <h1>YOUR {year}</h1>
                 <h2>WRAPPED</h2>
                 <p class="subtitle">Let's see what you've been watching...</p>

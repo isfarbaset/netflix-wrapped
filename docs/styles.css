@@ -104,11 +104,11 @@ main.content, #quarto-content {
 
 /* Netflix Logo */
 .netflix-logo {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 6rem;
-    color: var(--netflix-red);
-    text-shadow: 0 0 60px rgba(229, 9, 20, 0.6);
+    width: auto;
+    height: 80px;
+    max-width: 200px;
     margin-bottom: 1rem;
+    filter: drop-shadow(0 0 30px rgba(229, 9, 20, 0.6));
     animation: pulseGlow 2s ease-in-out infinite;
 }
 
