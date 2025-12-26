@@ -250,7 +250,7 @@ display(HTML(f'''
         <div class="slide" data-slide="8">
             <div class="slide-content">
                 <div class="slide-label">Your streaming personality</div>
-                <div class="personality-icon">N</div>
+                <div class="personality-icon"><img src="images/chiller.svg" alt="Serial Chiller"></div>
                 <div class="personality-type">{personality.get('type', 'The Streamer')}</div>
                 <div class="personality-desc">{personality.get('description', '')}</div>
             </div>
