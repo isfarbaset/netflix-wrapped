@@ -74,33 +74,52 @@ def determine_personality(stats):
     """Determine viewer personality based on watching patterns."""
     personalities = []
     
-    # Night owl check
+    # Calculate key metrics
     night_pct = stats.get('time_categories', {}).get('Night Owl (10pm-6am)', 0)
     total_time = sum(stats.get('time_categories', {}).values()) or 1
-    if night_pct / total_time > 0.3:
-        personalities.append(("The Night Owl", "Sleep is overrated when there's content to consume. Your best watching happens when the world sleeps."))
+    night_ratio = night_pct / total_time
     
-    # Binge watcher check
-    if stats.get('binge_sessions', 0) > 30:
-        personalities.append(("The Binge Master", "One more episode? Make that ten. Sleep is optional when the plot thickens."))
-    
-    # Weekend warrior check
     weekend_count = stats.get('day_of_week', {}).get('Saturday', 0) + stats.get('day_of_week', {}).get('Sunday', 0)
     total_dow = sum(stats.get('day_of_week', {}).values()) or 1
-    if weekend_count / total_dow > 0.4:
-        personalities.append(("The Weekend Warrior", "Weekends were made for streaming. Monday can wait."))
+    weekend_ratio = weekend_count / total_dow
     
-    # Movie buff check
-    if stats.get('movies_watched', 0) > stats.get('episodes_watched', 0) * 0.3:
-        personalities.append(("The Movie Buff", "Why commit to a series when you can experience a complete story in two hours?"))
+    binge_sessions = stats.get('binge_sessions', 0)
+    streak = stats.get('longest_streak', 0)
+    unique_shows = stats.get('unique_shows', 0)
+    movies = stats.get('movies_watched', 0)
+    episodes = stats.get('episodes_watched', 0)
     
-    # Series devotee check
-    if stats.get('shows_completed', 0) > 5:
-        personalities.append(("The Completionist", "No show left behind. You see it through to the end, every time."))
+    # The Plot Twist Addict - lots of unique shows, doesn't stick to one
+    if unique_shows > 100:
+        personalities.append(("The Plot Twist Addict", "New show? Sign me up. Your watchlist is basically a buffet."))
+    
+    # The Marathon Runner - high streak and binge sessions
+    if streak > 20 and binge_sessions > 40:
+        personalities.append(("The Marathon Runner", "Consistency is your middle name. Rain or shine, you show up for your shows."))
+    
+    # The After Hours Explorer - late night viewing
+    if night_ratio > 0.5:
+        personalities.append(("The After Hours Explorer", "The world sleeps, you stream. Some stories just hit different at 2am."))
+    
+    # The Serial Chiller - high binge count
+    if binge_sessions > 50:
+        personalities.append(("The Serial Chiller", "One episode is never enough. You don't watch shows, you experience them."))
+    
+    # The Couch Critic - balanced movies and shows
+    if movies > 150 and episodes > 400:
+        personalities.append(("The Couch Critic", "Movies, series, documentaries - you appreciate it all. A true connoisseur."))
+    
+    # The Weekend Wanderer
+    if weekend_ratio > 0.4:
+        personalities.append(("The Weekend Wanderer", "Saturdays and Sundays are sacred. Your couch knows what's up."))
+    
+    # The Steady Streamer - consistent active days
+    if stats.get('active_days', 0) > 200:
+        personalities.append(("The Steady Streamer", "You've made streaming a lifestyle. Netflix is basically a roommate at this point."))
     
     # Default
     if not personalities:
-        personalities.append(("The Casual Streamer", "You watch what you want, when you want. No pressure, no rules."))
+        personalities.append(("The Casual Viewer", "You watch on your own terms. No algorithm can define you."))
     
     # Return the most fitting personality
     return personalities[0]
