@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Netflix Data Processor
-Processes raw Netflix data export and generates insights for the Wrapped report.
+Processes raw Netflix data export and generates insights for the Recap report.
 """
 
 import pandas as pd
@@ -348,7 +348,7 @@ if __name__ == "__main__":
     stats = process_netflix_data(data_dir)
     
     if stats:
-        output_file = Path(data_dir) / "wrapped_stats.json"
+        output_file = Path(data_dir) / "recap_stats.json"
         with open(output_file, 'w') as f:
             json.dump(stats, f, indent=2)
         print(f"Stats saved to {output_file}")

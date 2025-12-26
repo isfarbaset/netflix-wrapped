@@ -17,7 +17,7 @@ from pathlib import Path
 from IPython.display import display, HTML
 
 # Load stats from processed data
-stats_file = Path("data/wrapped_stats.json")
+stats_file = Path("data/recap_stats.json")
 if stats_file.exists():
     with open(stats_file) as f:
         stats = json.load(f)
@@ -130,7 +130,7 @@ display(HTML(f'''
             <div class="slide-content intro">
                 <img src="images/netflix-logo.png" alt="Netflix" class="netflix-logo">
                 <h1>YOUR {year}</h1>
-                <h2>WRAPPED</h2>
+                <h2>RECAP</h2>
                 <p class="subtitle">Let's see what you've been watching...</p>
                 <div class="scroll-hint">
                     <span>Tap to start</span>

@@ -1,8 +1,8 @@
 """
-Netflix Wrapped - Data Processing Script
+Netflix Recap - Data Processing Script
 
 This script processes the Netflix viewing history CSV export and generates
-statistics for the Wrapped visualization.
+statistics for the Recap visualization.
 
 To get your Netflix data:
 1. Go to Netflix.com > Profile > Account
@@ -281,10 +281,10 @@ def main():
     stats = calculate_stats(df, year=target_year)
     
     # Save stats
-    output_file = data_dir / 'wrapped_stats.json'
+    output_file = data_dir / 'recap_stats.json'
     save_stats(stats, output_file)
     
-    print("\nWrapped Stats Summary:")
+    print("\nRecap Stats Summary:")
     print(f"  Year: {stats.get('year')}")
     print(f"  Total watched: {stats.get('total_titles_watched')}")
     print(f"  Estimated hours: {stats.get('estimated_hours')}")

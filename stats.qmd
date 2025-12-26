@@ -13,7 +13,7 @@ jupyter: python3
 import json
 from pathlib import Path
 
-stats_file = Path("data/wrapped_stats.json")
+stats_file = Path("data/recap_stats.json")
 if stats_file.exists():
     with open(stats_file) as f:
         stats = json.load(f)

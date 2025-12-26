@@ -1,4 +1,4 @@
-/* Netflix Wrapped - Carousel Edition */
+/* Netflix Recap - Carousel Edition */
 
 :root {
     --netflix-red: #E50914;
@@ -105,10 +105,10 @@ main.content, #quarto-content {
 /* Netflix Logo */
 .netflix-logo {
     width: auto;
-    height: 80px;
-    max-width: 200px;
-    margin-bottom: 1rem;
-    filter: drop-shadow(0 0 30px rgba(229, 9, 20, 0.6));
+    height: 120px;
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 40px rgba(229, 9, 20, 0.6));
     animation: pulseGlow 2s ease-in-out infinite;
 }
 

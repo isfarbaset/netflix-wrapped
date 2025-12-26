@@ -1,8 +1,8 @@
-# Netflix Wrapped
+# Netflix Recap
 
-A personalized "Year in Review" for your Netflix viewing habits, inspired by Spotify Wrapped. Build your own interactive carousel-style summary of the shows and movies you watched.
+A personalized "Year in Review" for your Netflix viewing habits, inspired by end-of-year recaps. Build your own interactive carousel-style summary of the shows and movies you watched.
 
-**Live Demo:** [https://isfarbaset.github.io/netflix-wrapped/](https://isfarbaset.github.io/netflix-wrapped/)
+**Live Demo:** [https://isfarbaset.github.io/netflix-recap/](https://isfarbaset.github.io/netflix-recap/)
 
 ## Features
 
@@ -25,8 +25,8 @@ A personalized "Year in Review" for your Netflix viewing habits, inspired by Spo
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/isfarbaset/netflix-wrapped.git
-cd netflix-wrapped
+git clone https://github.com/isfarbaset/netflix-recap.git
+cd netflix-recap
 ```
 
 ### Step 2: Install Dependencies
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 Copy your extracted Netflix data folder into the `data/` directory:
 
 ```
-netflix-wrapped/
+netflix-recap/
 └── data/
     └── YOUR_FOLDER_NAME/           # e.g., 288417895899340834
         └── CONTENT_INTERACTION/
@@ -72,11 +72,11 @@ This will:
 - Filter to the current year (2025)
 - Remove trailers, hooks, and very short views
 - Calculate all statistics
-- Generate `data/wrapped_stats.json`
+- Generate `data/recap_stats.json`
 
 You should see output like:
 ```
-Netflix Wrapped - Data Processing Complete!
+Netflix Recap - Data Processing Complete!
 ==========================================
 Total Watch Time: XXX.X hours (X.X days)
 Titles Watched: XXX
@@ -97,21 +97,21 @@ quarto render
 quarto preview
 ```
 
-Open [http://localhost:4000](http://localhost:4000) to see your personalized Netflix Wrapped!
+Open [http://localhost:4000](http://localhost:4000) to see your personalized Netflix Recap!
 
 ## Deploy to GitHub Pages
 
-1. Create a new repository on GitHub (e.g., `netflix-wrapped`)
+1. Create a new repository on GitHub (e.g., `netflix-recap`)
 
 2. Update the remote (if you cloned this repo):
    ```bash
-   git remote set-url origin https://github.com/YOUR_USERNAME/netflix-wrapped.git
+   git remote set-url origin https://github.com/YOUR_USERNAME/netflix-recap.git
    ```
 
 3. Push to GitHub:
    ```bash
    git add -A
-   git commit -m "My Netflix Wrapped"
+   git commit -m "My Netflix Recap"
    git push -u origin main
    ```
 
@@ -123,7 +123,7 @@ Open [http://localhost:4000](http://localhost:4000) to see your personalized Net
 
 5. Your site will be live at:
    ```
-   https://YOUR_USERNAME.github.io/netflix-wrapped/
+   https://YOUR_USERNAME.github.io/netflix-recap/
    ```
 
 ## Customization
@@ -167,7 +167,7 @@ Edit `index.qmd` to modify the carousel slides. Each slide follows this structur
 ## Project Structure
 
 ```
-netflix-wrapped/
+netflix-recap/
 ├── _quarto.yml              # Quarto configuration
 ├── index.qmd                # Main carousel page
 ├── stats.qmd                # Detailed stats page
@@ -177,7 +177,7 @@ netflix-wrapped/
 ├── images/
 │   └── netflix-logo.png     # Logo image
 ├── data/                    # Your Netflix data (gitignored)
-│   └── wrapped_stats.json   # Generated statistics
+│   └── recap_stats.json   # Generated statistics
 ├── scripts/
 │   └── process_netflix_data.py  # Data processing script
 ├── docs/                    # Generated site (for GitHub Pages)
@@ -204,4 +204,4 @@ All data processing happens **100% locally** on your machine. Your viewing histo
 
 ## License
 
-MIT License - feel free to fork and customize for your own Netflix Wrapped!
+MIT License - feel free to fork and customize for your own Netflix Recap!

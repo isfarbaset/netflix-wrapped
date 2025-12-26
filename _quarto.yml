@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Netflix Wrapped 2025"
+  title: "Netflix Recap 2025"
   description: "Your Year in Streaming"
   navbar:
     background: "#141414"

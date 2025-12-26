@@ -5,15 +5,15 @@ format:
     toc: false
 ---
 
-## About Netflix Wrapped
+## About Netflix Recap
 
-This project creates a personalized "Year in Review" summary of your Netflix viewing habits, inspired by Spotify Wrapped and similar end-of-year recaps.
+This project creates a personalized "Year in Review" summary of your Netflix viewing habits, similar to end-of-year recaps from various streaming services.
 
 ### How It Works
 
 1. **Download your Netflix data** from your account settings
 2. **Run the processing script** to analyze your viewing history
-3. **View your personalized Wrapped** with stats, insights, and fun facts
+3. **View your personalized Recap** with stats, insights, and fun facts
 
 ### Getting Your Netflix Data
 
@@ -40,7 +40,7 @@ This project creates a personalized "Year in Review" summary of your Netflix vie
 
 ### Source Code
 
-This project is open source. Feel free to fork it and create your own Wrapped!
+This project is open source. Feel free to fork it and create your own Recap!
 
 [View on GitHub](https://github.com/isfarbaset/netflix-wrapped){.btn .btn-primary style="display: inline-block; padding: 0.75rem 1.5rem; background: var(--netflix-red); border: none; border-radius: 8px; text-decoration: none; color: white; font-weight: bold;"}
 
