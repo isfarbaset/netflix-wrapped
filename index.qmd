@@ -148,7 +148,7 @@ display(HTML(f'''
         <div class="slide active" data-slide="0">
             <div class="slide-content intro">
                 <img src="images/netflix-logo.png" alt="Netflix" class="netflix-logo">
-                <h1>YOUR {year} NETFLIX RECAP</h1>
+                <h1>YOUR {year} <span class="netflix-text">NETFLIX</span> RECAP</h1>
                 <p class="subtitle">Let's see what you've been watching...</p>
                 <div class="scroll-hint">
                     <span>Tap to start</span>

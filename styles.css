@@ -112,6 +112,12 @@ main.content, #quarto-content {
     animation: pulseGlow 2s ease-in-out infinite;
 }
 
+.netflix-text {
+    border: 3px solid var(--netflix-red);
+    padding: 0.05em 0.25em;
+    border-radius: 4px;
+}
+
 @keyframes pulseGlow {
     0%, 100% { text-shadow: 0 0 60px rgba(229, 9, 20, 0.6); }
     50% { text-shadow: 0 0 100px rgba(229, 9, 20, 0.9); }
