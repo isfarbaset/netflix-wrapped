@@ -113,9 +113,11 @@ main.content, #quarto-content {
 }
 
 .netflix-text {
-    border: 3px solid var(--netflix-red);
-    padding: 0.05em 0.25em;
-    border-radius: 4px;
+    -webkit-text-stroke: 2px var(--netflix-red);
+    text-shadow: 
+        0 0 10px var(--netflix-red),
+        0 0 20px var(--netflix-red),
+        0 0 40px var(--netflix-red);
 }
 
 @keyframes pulseGlow {
